@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    viewDidAppear(_ animated: Bool) {
+        print("Hello Matcha!")
+    }
 
 }
 

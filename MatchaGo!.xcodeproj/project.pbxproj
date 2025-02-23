@@ -8,28 +8,14 @@
 
 /* Begin PBXFileReference section */
 		8565E36A2D69FD0400C0390C /* Udder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A3B8F92D6B77CA006A9709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85A3B8FA2D6B77CA006A9709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A3B8FB2D6B77CA006A9709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A3B8FC2D6B77CA006A9709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85A3B8FE2D6B77CA006A9709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85A3B9002D6B77CA006A9709 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85A3B9012D6B77CA006A9709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8565E37C2D69FD0500C0390C /* Exceptions for "Udder" folder in "Udder" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 8565E3692D69FD0400C0390C /* Udder */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8565E36C2D69FD0400C0390C /* Udder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8565E37C2D69FD0500C0390C /* Exceptions for "Udder" folder in "Udder" target */,
-			);
-			path = Udder;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8565E3672D69FD0400C0390C /* Frameworks */ = {
@@ -45,7 +31,7 @@
 		8565E3612D69FD0300C0390C = {
 			isa = PBXGroup;
 			children = (
-				8565E36C2D69FD0400C0390C /* Udder */,
+				85A3B9022D6B77CA006A9709 /* MatchaGo! */,
 				8565E36B2D69FD0400C0390C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +42,20 @@
 				8565E36A2D69FD0400C0390C /* Udder.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		85A3B9022D6B77CA006A9709 /* MatchaGo! */ = {
+			isa = PBXGroup;
+			children = (
+				85A3B8F92D6B77CA006A9709 /* AppDelegate.swift */,
+				85A3B8FA2D6B77CA006A9709 /* Assets.xcassets */,
+				85A3B8FB2D6B77CA006A9709 /* Info.plist */,
+				85A3B8FD2D6B77CA006A9709 /* LaunchScreen.storyboard */,
+				85A3B8FF2D6B77CA006A9709 /* Main.storyboard */,
+				85A3B9002D6B77CA006A9709 /* SceneDelegate.swift */,
+				85A3B9012D6B77CA006A9709 /* ViewController.swift */,
+			);
+			path = "MatchaGo!";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +72,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8565E36C2D69FD0400C0390C /* Udder */,
 			);
 			name = Udder;
 			packageProductDependencies = (
@@ -98,7 +95,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8565E3652D69FD0300C0390C /* Build configuration list for PBXProject "Udder" */;
+			buildConfigurationList = 8565E3652D69FD0300C0390C /* Build configuration list for PBXProject "MatchaGo!" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -136,6 +133,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85A3B8FD2D6B77CA006A9709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A3B8FC2D6B77CA006A9709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		85A3B8FF2D6B77CA006A9709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A3B8FE2D6B77CA006A9709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8565E37E2D69FD0500C0390C /* Debug */ = {
@@ -316,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8565E3652D69FD0300C0390C /* Build configuration list for PBXProject "Udder" */ = {
+		8565E3652D69FD0300C0390C /* Build configuration list for PBXProject "MatchaGo!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8565E3802D69FD0500C0390C /* Debug */,
